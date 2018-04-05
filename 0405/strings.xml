@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="str1">Jaeeun Cho</string>
+    <string name="str2">Jaina Cho</string>
+
+    <string-array name="str3">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+    </string-array>
+</resources>
