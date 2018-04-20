@@ -1,4 +1,4 @@
-package com.example.user.myapplication;
+package com.example.ckr97.intentcal;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         mBtnCal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent();
+                Intent intent = new Intent(getApplicationContext(), AnswerActivity.class);
                 String Num1 = mEditNum1.getText().toString();
                 String Num2 = mEditNum2.getText().toString();
                 double result;
@@ -56,6 +56,8 @@ public class MainActivity extends AppCompatActivity {
                         intent.putExtra("result", result);
                         break;
                 }
+
+                startActivity(intent);
             }
         });
     }

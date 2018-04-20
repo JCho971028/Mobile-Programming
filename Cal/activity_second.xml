@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.user.myapplication.SecondActivity">
+    tools:context="com.example.ckr97.intentcal.AnswerActivity">
 
     <TextView
         android:id="@+id/textViewAnswer"
