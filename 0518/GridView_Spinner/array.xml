@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="location" >
+            <item name="one"></item>
+            <item name="two"></item>
+            <item name="three"></item>
+            <item name="four"></item>
+            <item name="five"></item>
+         </string-array>
+    </resources>
